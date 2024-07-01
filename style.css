@@ -1,0 +1,72 @@
+.container{
+    margin-bottom: 100px;
+}
+.container .slide .carousel-indicators .btn{
+    height: 7px;
+    width: 10px;
+    background-color: rgba(128, 128, 128, 0.3);
+    box-shadow: none;
+    border: 0px;
+}
+.container .slide .carousel-indicators .active{
+  height: 7px;
+  width: 30px;
+  background-image: linear-gradient(to right, #ff8206, #ffd019);
+  box-shadow: none;
+  border: 0px;
+}
+.carousel-item{
+  padding: 0px 40px;
+}
+.card{
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
+  border-radius: 8px;
+}
+.underline{
+  height: 7px;
+  width: 100px;
+  border-radius: 6px;
+  background-image: linear-gradient(to right, #ff8206, #ffd019);
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+#bag-cat{
+  padding-top: 24px;
+  width: 220px;
+  height: 200px;
+  border-top-left-radius: 2px;
+  border-top-right-radius:20px;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:2px;
+}
+#beauty-cat{
+  padding-top: 24px;
+  width: 220px;
+  height: 200px;
+  margin-bottom: 25px;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius:2px;
+  border-bottom-left-radius:2px;
+  border-bottom-right-radius:20px;
+}
+#shoe-cat{
+  padding-top: 24px;
+  width: 220px;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius:2px;
+  border-bottom-left-radius:2px;
+  border-bottom-right-radius:20px;
+}
+.sub{
+  height: 300px;
+  border-radius: 3px;
+}
+.sub input{
+  border: none;
+  border-radius: 3px;
+  padding: 3px 5px;
+  margin-bottom: 10px;
+}
